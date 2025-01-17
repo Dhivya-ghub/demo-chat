@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: flask-container
-        image: dhivyadhub/maven:v1   # Build and push your image locally (e.g., using Docker)
+        image: dhivyadhub/maven:3   # Build and push your image locally (e.g., using Docker)
         ports:
         - containerPort: 5000
         env:
